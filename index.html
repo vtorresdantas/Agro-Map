@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+
+    <title>AgroMap - Soluções Agrícolas</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="apresentation container">
+            <div class="nav">
+                <i class="fas fa-leaf" id="logo"></i>
+                <div class="content__options" id="menuOptions">
+                    <ul>
+                        <li><a href="#challenge">Desafio</a></li>
+                        <li><a href="#solution1">Essencial Search</a></li>
+                        <li><a href="#solution2">Agro Report</a></li>
+                        <li><a href="#team">Equipe</a></li>
+
+                    </ul>
+
+                    <div class="contactUs">
+                        <a href="#contact">Fale Conosco</a>
+                    </div>
+
+                </div>
+
+                <button onclick="openCloseMenu()" id="btnMenu"><i class="fas fa-bars"></i></button>
+            </div>
+
+            <div class="content__apresentation">
+                <div class="text__plant">
+                    <div class="text">
+                        <div class="text_and_image">
+                            <h1>Visamos tornar a agricultura 100% mapeável em todo o planeta.</h1>
+                            <img class="plant" src="./images/agro.png" alt="Planta">
+                        </div>
+
+                        <p>
+                            Aqui na AgroMap desenvolvemos diversas soluções tecnológicas resposáveis
+                            por fornecer informações que auxiliam o agricultor familiar a planejar suas
+                            colheitas futuras. <strong>Veja abaixo um vídeo que apresenta a discussão
+                            que inspirou nossa startup:</strong>
+                        </p>
+
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/rljPOeDwwt0?autoplay=1&mute=1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+
+                        <div class="onu">
+                            <img src="./images/onu.png" alt="">
+                            <h6>
+                                Nosso projeto apoia os objetivos de desenvolvimento sustentável
+                                da Onu
+                            </h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="challenge container" id="challenge">
+            <div class="content__sections">
+                <div class="subtitle">
+                    <h5>Desafio</h5>
+                    <div class="traco"></div>
+                </div>
+
+                <div class="text">
+                    <h1>
+                        Promover práticas agrícolas sustentáveis.
+                    </h1>
+
+                    <p>
+                        Durante as duas últimas décadas, o rápido crescimento econômico e o desenvolvimento da
+                        agricultura foram responsáveis pela redução pela metade de pessoas subnutridas no
+                        mundo. Entretanto, ainda há 795 milhões de pessoas no mundo que, em 2014, viviam sob o espectro
+                        da desnutrição crônica.
+                    </p>
+
+                    <img src="./images/ods2.jpg" alt="Fome Zero (ONU)">
+
+                    <p>
+                        O ODS 2 (Objetivo de Desenvolvimento Sustentável) pretende acabar com todas as formas de fome e
+                        má-nutrição até 2030, de modo a garantir que todas as pessoas, especialmente as crianças,
+                        tenham acesso suficiente a alimentos nutritivos durante todos os anos.
+                    </p>
+
+                    <p class="negrito">
+                        Para alcançar este objetivo, nossa startup busca soluções para promover práticas agrícolas
+                        sustentáveis,
+                        por meio do apoio à agricultura familiar, do acesso equitativo à terra, à tecnologia e ao
+                        mercado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="solution1 container" id="solution1">
+            <div class="content__sections">
+                <div class="flex">
+                    <div class="subtitle">
+                        <h5>Soluções</h5>
+                        <div class="traco"></div>
+                    </div>
+
+                    <div class="text">
+                        <h1>
+                            Essencial Search
+                        </h1>
+
+                        <p>
+                            A agricultura de precisão é um sistema de manejo integrado de informações e tecnologias.
+                            Levando em consideração esse conceito, nossa equipe realizou diversas parcerias para
+                            integrar
+                            campos de pesquisas nos maiores lotes ativos do mundo agrícola.
+                        </p>
+
+                        <p>
+                            Após muitas análises químicas e físicas dos locais,
+                            finalmente conseguimos desenvolver um software que centraliza dados essenciais para
+                            tornar o plantio mais otimizado, seguro e previsível, evitando perdas de produção e a prejudicação
+                            do meio ambiente.
+                        </p>
+
+                        <img src="./images/solution1.jpeg" alt=" App Essencial Search">
+
+                        <p>
+                            Em nossa mais nova aplicação 'Essencial Search' será possível que qualquer
+                            agricultor, independente do local em que esteja, procure por determinada
+                            fruta/fruto que deseja cultivar. Em poucos instantes, nossa base de dados
+                            retornará informações como: descrição técnica, solo/clima necessários para
+                            o plantio, modo de propagação, além da comparação de custos entre uma fazenda
+                            tradicional e vertical desse alimento.
+                        </p>
+
+                        <p>
+                            Nesse momento, o aplicativo possui suporte apenas para o sistema Android, por isso,
+                            para ser liberado ao público precisamos esperar a entrega do produto para plataformas
+                            IOS. Porém, aqui no site você encontra uma demonstração de como a resposta da 
+                            requisição aparecerá para o usuário. <strong>Teste Abaixo:</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="test">
+                    <form id="form">
+                        <label for="searchName">*Nome da fruta:</label>
+                        <input type="text" name="searchName" id="searchName" required
+                            placeholder="Ex: Maçã, Abacate...">
+
+                        <button type="submit">Pesquisar</button>
+                    </form>
+                    <a href="./json/data.json">Confira os produtos disponíveis para pesquisa nesta versão</a>
+                </div>
+
+                <div class="result">
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="solution2 container" id="solution2">
+            <div class="content__sections">
+                <div class="subtitle">
+                    <h5>Soluções</h5>
+                    <div class="traco"></div>
+                </div>
+
+                <div class="text">
+                    <h1>
+                        Aero Report
+                    </h1>
+
+                    <p>
+                        Com o avanço da tecnologia, os Veículos Aéreos Não Tripulados (VANTs) começaram a
+                        ser integrados com diversos tipos de ferramentas. Aqui na AgroMap desenvolvemos
+                        um software que é capaz de analisar as imagens capturadas pelos drones e reportar
+                        para o agricultor qual área de seu cultivo que está sendo atacada por pragas ou sofrendo
+                        com doenças.
+                    </p>
+
+                    <img src="./images/solution02_1.jpg" alt="VANT">
+
+                    <p>
+                        <strong>Entenda o funcionamento:</strong> O drone tem tecnologia com pilotagem automática, que
+                        tem o trajeto pré-definido pelo operador, e usa uma câmera multiespectral para mapear
+                        determinado local e gerar imagens completas da região selecionada, tudo em alta resolução. Após
+                        a captação e o processamento dos registros, os dados são analisados por um software com
+                        inteligência artificial que indica com precisão onde está acontecendo a infestação de ervas
+                        daninhas, por exemplo. Além disso, o sistema possibilita encontrar outros problemas, como falhas
+                        nas plantações.
+                    </p>
+
+                    <img src="./images/solution02_2.png" alt="VANT">
+
+                    <p>
+                        Como essa tecnologia permite uma análise rápida e precisa da situação da lavoura, o produtor tem
+                        mais ferramentas para tomar decisões e agir antes que aconteçam problemas maiores, evitando
+                        ações tardias que comumente geram muitos danos e elevam consideravelmente os custos. Além disso,
+                        a detecção precoce desses maus possibilita que o agricultor substitua a utilização de pesticidas
+                        pelo uso de predadores naturais no controle de pragas, gerando assim um alimento seguro para
+                        consumo.
+                    </p>
+
+                    <p>
+                        Para alavancar ainda mais a qualidade desse serviço, nossa equipe está buscando investidores
+                        interessados em nos ajudar na construção de uma bateria inovadora para os VANTs, que
+                        possibilitaria
+                        um voo de até 24hrs, dispensando qualquer pausa para recarga. <strong>Quer fazer parte do time
+                            de sócios? <a href="#contact">Entre em contato com a gente</a>.
+                        </strong>
+                    </p>
+                </div>
+        </section>
+
+        <section class="team container" id="team">
+            <div class="content__sections">
+                <div class="subtitle">
+                    <h5>Equipe</h5>
+                    <div class="traco"></div>
+                </div>
+
+                <div class="text">
+                    <div class="person">
+                        <img src="./images/gab.jpg" alt="">
+                        <p>
+                            <strong>Gabriel de Oliveira</strong> <br><br>
+                            <strong>Desenvolvedor Front-end</strong> - Responsável pela experiência do usuário dentro de
+                            uma aplicação
+                            web, é ele quem codifica as páginas com as quais, posteriormente, o
+                            usuário irá interagir.
+                        </p>
+                    </div>
+
+                    <div class="person">
+                        <img src="./images/mat.jpg" alt="">
+                        <p>
+                            <strong>Matheus de Oliveira</strong> <br><br>
+                            <strong>QA</strong> - Busca garantir que o produto seja entregue respeitando as qualidades
+                            pretendidas pelo cliente. Isso evita que o usuário receba um item com problemas e erros em
+                            sua execução.
+                        </p>
+                    </div>
+
+                    <div class="person">
+                        <img src="./images/vini.jpg" alt="">
+                        <p>
+                            <strong>Vinícius Heidi</strong> <br><br>
+                            <strong>Desenvolvedor Back-end</strong> - Encarregado por dinamizar os sites utilizando
+                            linguagens de programação, além de organizar todas as informações invisíveis aos olhos do
+                            usuário.
+                        </p>
+                    </div>
+
+                    <div class="person">
+                        <img src="./images/vitor.jpg" alt="">
+                        <p>
+                            <strong>Vitor Torres</strong> <br><br>
+                            <strong>Desenvolvedor Android</strong> - Projeta e desenvolve aplicativos avançados para a
+                            plataforma Android, além disso, realiza testes unitários de código.
+                        </p>
+                    </div>
+
+                    <div class="person">
+                        <img src="./images/lucas.jpg" alt="">
+                        <p>
+                            <strong>Lucas Dellagatti</strong> <br><br>
+                            <strong>UX</strong> - Planeja o design que vai além dos aspectos visuais de uma plataforma,
+                            garantindo
+                            que ela seja, de forma geral, simples, intuitiva e até mesmo interessante de ser utilizada
+                            pelo usuário.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container contact" id="contact">
+            <form>
+                <h1>Fale Conosco</h1>
+
+                <input type="text" name="name" id="name" required placeholder="Seu Nome..." autocomplete="off">
+
+                <input type="text" name="email" id="email" required placeholder="Seu Email..." autocomplete="off">
+
+                <input type="text" name="phone" id="phone" required placeholder="Seu Telefone..." autocomplete="off">
+
+                <textarea name="mesage" id="mesage" cols="30" rows="10" required placeholder="Insira uma mensagem..."
+                    autocomplete="off"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="content">
+                <div class="footer__contact">
+                    <a><i class="fas fa-map-marker-alt"></i> Rua Fictícia, 123 - SP</a>
+                    <a><i class="fas fa-phone-square-alt"></i>(11) 9999-9999</a>
+                </div>
+
+                <div class="sociais">
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-facebook"></i></a>
+                    <a><i class="fab fa-youtube"></i></a>
+                    <a><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/card.js"></script>
+</body>
+
+</html>
